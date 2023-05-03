@@ -5,10 +5,287 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     
+    <button class="js-button">Это кнопка</button>
 
-    <script src="./js/test.js" type="module"></script>
+    <div class="hero"></div>
+
+
+    <div class="counter">
+        <button class="js-decrement">Уменьшить</button>
+        <p class="js-value">0</p>
+        <button class="js-increment">Увеличить</button>
+
+    </div>
+    <ul id="menu" class="menu">
+        <li class="menu-item">home</li>
+        <li class="menu-item">about</li>
+        <li class="menu-item">gallery</li>
+        <li>blog</li>
+    </ul>
+
+    <article class="article">
+        <h2 class="article-title">Welcome to Hawaii!</h2>
+        <p class="article-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quaerat nemo veritatis
+            quasi eius eum aliquid, nobis dolore nisi, magnam eaque iusto, necessitatibus atque laborum quam tempora ducimus
+            dicta ipsam.</p>
+    </article>
+
+    <p id="paragraph" class="text red big">Proin magna. Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero,
+        non adipiscing dolor urna a orci. Etiam rhoncus. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi.
+    </p>
+
+    <img class="image" src="https://placeimg.com/400/200/nature" alt="Beautiful nature">
+
+    <div class="editor">
+        <p>Donec id justo. Praesent porttitor, nulla vitae posuere iaculis, arcu nisl dignissim dolor, a pretium mi sem ut
+            ipsum. Curabitur suscipit suscipit tellus. Phasellus gravida semper nisi.</p>
+        <div class="actions">
+            <button type="button" class="btn" data-action="save">Save</button>
+            <button type="button" class="btn" data-action="close">Close</button>
+        </div>
+    </div>
+    <button type="button"  class="add-btn-js">Создать</button>
+    <button type="button"  class="toggle-btn-js">Редактировать</button>
+    
+    <ul class="dishes">
+        <li data-id="14">Baked Yak &amp; Mushrooms</li>
+        <li data-id="7">Strawberry Pancakes</li>
+        <li data-id="3">Caramel Toffee</li>
+        <li data-id="61">Pistachio Elderberry Wafer</li>
+    </ul>
+    <ul class="dishes1">
+        <li data-id="14">Baked Yak &amp; Mushrooms</li>
+        <li data-id="7">Strawberry Pancakes</li>
+        <li data-id="3">Caramel Toffee</li>
+        <li data-id="61">Pistachio Elderberry Wafer</li>
+    </ul>
+
+    <!-- <input type="text" class="js-input"> -->
+
+    
+
+    <div class="js-actions">
+        <button type="="button  data-action="add">Создать</button>
+        <button type="=" button data-action="remove">Удалить</button>
+        <button type="=" button data-action="edit">Редактировать</button>
+    </div>
+    
+    <article class="article">
+        <h2 class="title2">Article title</h2>
+        <p class="text2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, ipsa quibusdam!
+            <strong>Praesentium</strong> accusantium fugiat distinctio quidem minima fugit eos, veniam, nam laboriosam
+            deleniti nisi qui neque explicabo perspiciatis, consectetur non.</p>
+        <a class="link" href="">Read more</a>
+    </article>
+
+    <ul class="site">
+        <li class="site-nav__item"><a href="/about" class="site-nav__link">О нас</a></li>
+        <li class="site-nav__item"><a href="/portfolio" class="site-nav__link">Портфолио</a></li>
+        <li class="site-nav__item"><a href="/contact" class="site-nav__link">Контакты</a></li>
+    </ul>
+
+
+ 
+
+    <button type="button" class="mag-btn js-mag-btn">Кнопка добавляем коллекцию</button>
+
+    <div class="color-picker js-color-picker"></div>
+
+
+
+<p><a href="/index.html">На главную</a></p>
+
+<div class="js-products"></div>
+
+<h1 class="titleInner">Это <span>заголовок</span></h1>
+
+<table class="transaction-table js-transaction-table">
+    <thead>
+        <tr>
+            <th>ID транзакции</th>
+            <th>Сумма</th>
+            <th>Дата</th>
+            <th>Кто</th>
+            <th>Тип транзакции</th>
+            <th>Имя счета</th>
+            <th>Номер счета</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>ID транзакции</td>
+            <td>Сумма</td>
+            <td>Дата</td>
+            <td>Кто</td>
+            <td>Тип транзакции</td>
+            <td>Имя счета</td>
+            <td>Номер счета</td>
+        </tr>
+    </tbody>
+
+</table>
+
+<button id="single" class="btn">SINGLE CALLBACK</button>
+<hr>
+<button id="multiple" class="btn">MULTIPLE CALLBACKS</button>
+
+<button class="btn" data-action="add1">Add Listener</button>
+<button class="btn" data-action="remove1">Remove Listener</button>
+<hr>
+<button id="btn" class="btn js-btn">Click me</button>
+
+<form class="register-form" autocomplete="off">
+    <input type="text" name="username" placeholder="Username" />
+    <input type="password" name="password" placeholder="Password" />
+    <button type="submit">Register</button>
+</form>
+
+<button type="button" data-action="clear">Clear output</button>
+<div class="log-list"></div>
+
+
+<button type="button" class="js-target-btn">Целевая кнопка</button>
+<button type="button" class="js-add-listener">Добавить слушателя</button>
+<button type="button" class="js-remove-listener">Снять слушателя</button>
+
+<!-- Событие сабмита формы -->
+<form class="js-register-form" autocomplete="off">
+    <div role="group">
+        <label>
+            Почта
+            <input type="email" name="email" />
+        </label>
+        <label>
+            Пароль
+            <input name="password" type="password" />
+        </label>
+    </div>
+
+    <br />
+    <div role="group">
+        <b>Тип подписки:</b>
+        <label>
+            <input type="radio" name="subscription" value="free" />
+            Free
+        </label>
+        <label>
+            <input type="radio" name="subscription" value="basic" />
+            Basic
+        </label>
+        <label>
+            <input type="radio" name="subscription" value="pro" />
+            Pro
+        </label>
+    </div>
+
+    <br />
+    <button type="submit">Зарегистрироваться</button>
+</form>
+
+
+    <!-- <form action="" autocomplete="off"> -->
+    <label>
+        Имя
+        <input type="text" class="js-input" />
+    </label>
+    
+    <p>
+        <label>
+            <input type="checkbox" class="js-license" />
+            Принимаю лицензинное соглашение
+        </label>
+    </p>
+    
+    <button type="submit" disabled class="js-button-btn">
+        Зарегистрироваться как <span>Аноним</span>
+    </button>
+    <!-- </form> -->
+
+<button class="js-clear">Очистить</button>
+<p class="output js-output"></p>
+
+<style>
+    .box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+        background-color: #3f51b5;
+        transition: background-color 200ms ease-in;
+    }
+
+    .box--active {
+        background-color: #009688;
+    }
+
+    .inner-box {
+        width: 100px;
+        height: 100px;
+        background-color: #ffc107;
+    }
+</style>
+</head>
+
+<body>
+    <p><a href="/">На главную</a></p>
+
+    <div class="box js-box">
+        <div class="inner-box"></div>
+    </div>
+
+
+
+    <button class="button" data-action="open-modal">Открыть модалку</button>
+    
+    <div class="backdrop js-backdrop">
+        <div class="modal">
+            <h2>Modal window</h2>
+            <p>
+                In user interface design for computer applications, a modal window is
+                a graphical control element subordinate to an application's main
+                window. It creates a mode that disables the main window but keeps it
+                visible, with the modal window as a child window in front of it. Users
+                must interact with the modal window before they can return to the
+                parent application. This avoids interrupting the workflow on the main
+                window. Modal windows are sometimes called heavy windows or modal
+                dialogs because they often display a dialog box.
+            </p>
+            <button type="button" class="button" data-action="close-modal">
+                Закрыть
+            </button>
+        </div>
+    </div>
+
+
+
+
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+<script src="./js/lodash.js"></script> -->
+    <!-- <script src="./js/test.js" type="module"></script> -->
+    <!-- <script src="./js/practice.js" type="module"></script> -->
+    <!-- <script src="./js/practice2.js" type="module"></script> -->
+    <!-- <script src="./js/practice3.js" type="module"></script> -->
+    <!-- <script src="./js/practice4.js" type="module"></script> -->
+    <!-- <script src="./js/practice5.js" type="module"></script> -->
+    <!-- <script src="./js/practice-mentor-3-modul.js" type="module"></script> -->
+    <!-- <script src="./js/konspekt-4-modul.js" type="module"></script> -->
+    <!-- <script src="./js/repeta-4-modul.js" type="module"></script> -->
+    <!-- <script src="./js/zadachi-4-modul.js" type="module"></script> -->
+    <!-- <script src="./js/konspekt-5-modul.js" type="module"></script> -->
+    <!-- <script src="./js/repeta-5-modul.js" type="module"></script> -->
+    <!-- <script src="./js/zadachi-5-modul.js" type="module"></script> -->
+    <!-- <script src="./js/konspekt-6-modul.js"></script> -->
+    <script src="./js/repeta-6-modul.js" type="module"></script>
+    <!-- <script src="./js/data/products-6-modul.js" type="module"></script> -->
+    <!-- <script src="./js/data/products.js" type="module"></script> --> 
+    <!-- <script src="./js/data/transactions-6-modul.js" type="module"></script> -->
+
+
 </body>
 </html>
